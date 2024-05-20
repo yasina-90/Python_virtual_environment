@@ -7,7 +7,7 @@ A virtual environment in Python is a self-contained directory that includes a Py
 To create a virtual environment, navigate to the root directory of your project and run the following command:
 
 
-python -m venv qed-venv
+`python -m venv qed-venv`
 
 
 This command creates a virtual environment named `qed-venv` in your project directory.
@@ -17,12 +17,12 @@ Activating the virtual environment changes your shell's environment so that it u
 
 ### On Windows:
 
-.\qed-venv\Scripts\activate
+`.\qed-venv\Scripts\activate`
 
 
 ### On macOS/Linux:
 
-source qed-venv/bin/activate
+`source qed-venv/bin/activate`
 
 After activation, your shell prompt will typically change to indicate that the virtual environment is active.
 
@@ -30,26 +30,26 @@ After activation, your shell prompt will typically change to indicate that the v
 ### Install a Single Package
 To install a single package using pip, you can run:
 
-pip install <package_name>
+`pip install <package_name>`
 
 For example, to install the numpy library:
 
 
-pip install numpy
+`pip install numpy`
 
 
 ### Install Multiple Packages
 To install multiple packages using pip, you can run:
 
 
-pip install <package_name1> <package_name2> <package_name3> ...
+`pip install <package_name1> <package_name2> <package_name3> ...`
 
 
 For example, to install some common data science packages:
 
 
 
-pip install jupyter matplotlib numpy pandas scipy scikit-learn
+`pip install jupyter matplotlib numpy pandas scipy scikit-learn`
 
 
 Alternatively, you can use the following command, which ensures that pip is up-to-date:
@@ -68,7 +68,7 @@ This file can be used to recreate the same environment elsewhere.
 To deactivate the virtual environment and return to the global Python environment, run:
 
 
-deactivate
+`deactivate`
 
 
 
@@ -79,7 +79,7 @@ If you have a `requirements.txt` file and want to install all the packages liste
 - Ensure your terminal is navigated to the project directory and your virtual environment is activated.
 - Run the following command:
 
-pip install -r requirements.txt
+`pip install -r requirements.txt`
 
 This command reads the `requirements.txt` file and installs all the packages listed, ensuring that your virtual environment has the same setup as specified in the file.
 
@@ -92,7 +92,7 @@ Open File Explorer, navigate to your project directory, and delete the `qed-venv
 ### On macOS/Linux:
 Open your terminal, navigate to your project directory, and run:
 
-rm -rf qed-venv
+`rm -rf qed-venv`
 
 
 This will completely remove the virtual environment from your project directory.
