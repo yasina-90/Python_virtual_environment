@@ -59,7 +59,8 @@ Alternatively, you can use the following command, which ensures that pip is up-t
 
 
 ## 4. Create requirements.txt
-To create a `requirements.txt` file, which lists all the packages installed in the virtual environment along with their versions, run:
+A requirements.txt file serves as a manifest of your project's dependencies, making it easier to recreate your development environment elsewhere. It includes a list of packages installed in your virtual environment along with their versions.
+
 
 
 This file can be used to recreate the same environment elsewhere.
