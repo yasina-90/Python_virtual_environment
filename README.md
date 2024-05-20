@@ -112,7 +112,7 @@ This will completely remove the virtual environment from your project directory.
   - *Windows:* Delete the `qed-venv` folder from File Explorer
   - *macOS/Linux:* `rm -rf qed-venv`
 
-By following these steps, you can easily manage your Python project's dependencies, ensure a consistent development environment across different machines, and clean up when the virtual environment is no longer needed.
+you can easily manage your` Python project's` `dependencies`, ensure a `consistent` development environment across `different machines`, and clean up when the virtual environment is no longer needed.
 
 
 
